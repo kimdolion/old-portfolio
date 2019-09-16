@@ -1,16 +1,15 @@
-* {
-  margin: 0 auto;
+$darkred: maroon;
+$black: #000;
+$lightblack: #191919;
+$silver: #efefef;
+$bg-color: $darkred;
+$font-color: $silver;
+
+body {
+  background-color: $bg-color;
+  color: $font-color;
 }
 
-footer {
-  bottom: 0;
-  position: absolute;
-}
-
-
-* {
-  margin: 0 auto;
-}
 
 footer {
   bottom: 0;
