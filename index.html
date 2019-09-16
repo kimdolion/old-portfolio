@@ -7,6 +7,7 @@
       <meta name="author" content="Kimberly Wilkes">
 
       <link href="assets/styles/main.css" rel="stylesheet">
+      <link rel="stylesheet" href="animate.min.css">
       <script src="assets/scripts/index.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
     <body>
@@ -14,9 +15,29 @@
 
       </header>
       <main>
-        <h1> Kimberly Wilkes</h1>
+        <h1 class="animated infinite bounce delay-2s"> Kimberly Wilkes</h1>
+        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+          <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">About Me</a>
+          <a class="nav-link" id="v-pills-projects-tab" data-toggle="pill" href="#v-pills-projects" role="tab" aria-controls="v-pills-projects" aria-selected="false">Project Showcase</a>
+          <a class="nav-link" id="v-pills-skills-tab" data-toggle="pill" href="#v-pills-skills" role="tab" aria-controls="v-pills-skills" aria-selected="false">Skills</a>
+          <a class="nav-link" id="v-pills-contact-tab" data-toggle="pill" href="#v-pills-contact" role="tab" aria-controls="v-pills-contact" aria-selected="false">Contact Info.</a>
+          <a class="nav-link" id="v-pills-experience-tab" data-toggle="pill" href="#v-pills-experience" role="tab" aria-controls="v-pills-experience" aria-selected="false">Experience</a>
+          <a class="nav-link" id="v-pills-interests-tab" data-toggle="pill" href="#v-pills-interests" role="tab" aria-controls="v-pills-interests" aria-selected="false">Non-coding Interests</a>
+        </div>
+        <div class="tab-content" id="v-pills-tabContent">
+          <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+          <div class="tab-pane fade" id="v-pills-projects" role="tabpanel" aria-labelledby="v-pills-projects-tab">...</div>
+          <div class="tab-pane fade" id="v-pills-skills" role="tabpanel" aria-labelledby="v-pills-skills-tab">...</div>
+          <div class="tab-pane fade" id="v-pills-contact" role="tabpanel" aria-labelledby="v-pills-contact-tab">...</div>
+          <div class="tab-pane fade" id="v-pills-experience" role="tabpanel" aria-labelledby="v-pills-experience-tab">...</div>
+        </div>
         <div>
           About Me
+        </div>
+        <div>
+          Project Showcase
         </div>
         <div>
           Skills
@@ -26,9 +47,6 @@
         </div>
         <div>
           Resume
-        </div>
-        <div>
-          Project Showcase
         </div>
         <div>
           Non-coding interests
