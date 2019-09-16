@@ -3,6 +3,7 @@ $black: #000;
 $lightblack: #191919;
 $silver: #efefef;
 $bg-color: $darkred;
+$bg-content: $lightblack;
 $font-color: $silver;
 
 html {
@@ -19,10 +20,17 @@ footer {
 }
 
 .content-wrapper {
+  background-color: $bg-content;
   padding-bottom: 2.5rem;    /* Footer height */
 }
 
+.nav {
+  height: 100vh;
+}
+
 .page-container {
+  background-color: $bg-color;
+  color: $font-color;
   position: relative;
   min-height: 100vh;
 }

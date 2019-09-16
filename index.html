@@ -8,6 +8,7 @@
 
     <link rel="fluid-icon" href="https://git.generalassemb.ly/fluidicon.png" title="GitHub">
     <link href="assets/styles/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="animate.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="assets/scripts/index.js" type="text/javascript" charset="utf-8" defer></script>
@@ -15,23 +16,28 @@
   <body>
     <div class="page-container">
       <div class="content-wrapper">
-        <header>
-
-        </header>
         <main>
           <div class="row">
-            <div class="col-sm-6 col-md-3 col-xl-2">
-              <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                <a class="nav-link active" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">About Me</a>
-                <a class="nav-link" id="v-pills-projects-tab" data-toggle="pill" href="#v-pills-projects" role="tab" aria-controls="v-pills-projects" aria-selected="false">Projects</a>
-                <a class="nav-link" id="v-pills-skills-tab" data-toggle="pill" href="#v-pills-skills" role="tab" aria-controls="v-pills-skills" aria-selected="false">Skills</a>
-                <a class="nav-link" id="v-pills-education-tab" data-toggle="pill" href="#v-pills-education" role="tab" aria-controls="v-pills-education" aria-selected="true">Education</a>
-                <a class="nav-link" id="v-pills-experience-tab" data-toggle="pill" href="#v-pills-experience" role="tab" aria-controls="v-pills-experience" aria-selected="false">Experience</a>
-                <a class="nav-link" id="v-pills-contact-tab" data-toggle="pill" href="#v-pills-contact" role="tab" aria-controls="v-pills-contact" aria-selected="false">Contact Info.</a>
-                <a class="nav-link" id="v-pills-interests-tab" data-toggle="pill" href="#v-pills-interests" role="tab" aria-controls="v-pills-interests" aria-selected="false">Non-coding Interests</a>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-9 col-xl-10">
+            <!-- Begin navbar-->
+            <div class="col-sm-3 col-md-4 col-lg-4 col-xl-3">
+              <nav class="navbar navbar-expand-md navbar-dark bg-light border-bottom">
+                <button class="navbar-toggler bg-dark" data-toggle="collapse" data-target="#hamburgerMenu"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="hamburgerMenu">
+                  <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">About Me</a>
+                    <a class="nav-link" id="v-pills-projects-tab" data-toggle="pill" href="#v-pills-projects" role="tab" aria-controls="v-pills-projects" aria-selected="false">Projects</a>
+                    <a class="nav-link" id="v-pills-skills-tab" data-toggle="pill" href="#v-pills-skills" role="tab" aria-controls="v-pills-skills" aria-selected="false">Skills</a>
+                    <a class="nav-link" id="v-pills-education-tab" data-toggle="pill" href="#v-pills-education" role="tab" aria-controls="v-pills-education" aria-selected="true">Education</a>
+                    <a class="nav-link" id="v-pills-experience-tab" data-toggle="pill" href="#v-pills-experience" role="tab" aria-controls="v-pills-experience" aria-selected="false">Experience</a>
+                    <a class="nav-link" id="v-pills-contact-tab" data-toggle="pill" href="#v-pills-contact" role="tab" aria-controls="v-pills-contact" aria-selected="false">Contact Info.</a>
+                    <a class="nav-link" id="v-pills-interests-tab" data-toggle="pill" href="#v-pills-interests" role="tab" aria-controls="v-pills-interests" aria-selected="false">Interests</a>
+                  </div>
+                </div>
+              </nav>
+             </div>
+            <!-- End Navbar-->
+            <!-- Begin content-->
+            <div class="col-sm-9 col-md-8 col-lg-8 col-xl-9">
               <h1 class="animated infinite bounce delay-2s">Kimberly Wilkes</h1>
               <div class="tab-content" id="v-pills-tabContent">
                 <div class="tab-pane show active" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
@@ -124,7 +130,7 @@
                 <div class="tab-pane fade" id="v-pills-education" role="tabpanel" aria-labelledby="v-pills-education-tab">
                   <div class="container">
                     <h2>Education</h2>
-                    <div class="container d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                       <div class="resume-content">
                         <h3 class="mb-0">Bunker Hill Community College</h3>
                         <div class="subheading mb-3">Associate of Arts</div>
@@ -237,12 +243,7 @@
       </div>
       <footer>
         <div class="container">
-          <div class="row">
-            <div class="col justify-content-start">
-              <p>Made by Kimdolion | <a href="https://www.linkedin.com/in/kimberly-wilkes" target="_blank">LinkedIn</a> | <a href="https://github.com/kimdolion" target="_blank">Github</a>
-              </p>
-            </div>
-          </div>
+          <p>Made by Kimdolion | <a href="https://www.linkedin.com/in/kimberly-wilkes" target="_blank">LinkedIn</a> | <a href="https://github.com/kimdolion" target="_blank">Github</a>
         </div>
       </footer>
     </div>
