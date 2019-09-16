@@ -27,6 +27,10 @@ footer {
   width: 100%;
 }
 
+.navbar {
+  background-color: $darkgray;
+}
+
 .nav-link {
   text-align: center;
 }
@@ -43,7 +47,6 @@ footer {
     width: 100vw;
   }
   .navbar {
-    background-color
     width: 100vw;
   }
 }
