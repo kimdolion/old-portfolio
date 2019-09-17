@@ -1,6 +1,6 @@
 'use strict'
 //
-// import 'bootstrap'
+import 'bootstrap'
 // import 'fontawesome'
 
 $(() => {
