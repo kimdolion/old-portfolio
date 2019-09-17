@@ -8,7 +8,7 @@
   <meta name="author" content="Kimberly Wilkes aka Kimdolion">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="assets/styles/main.css" rel="stylesheet">
+  <link href="assets/styles/scss/main.scss" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="assets/scripts/index.js" type="text/javascript" charset="utf-8" defer></script>
 </head>
@@ -19,10 +19,10 @@
       <main>
         <div class="row">
           <!-- Begin navbar-->
-          <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+          <nav class="navbar navbar-expand-sm col-sm-auto text-center navbar-dark bg-dark">
             <button class="navbar-toggler ml-auto btn-dark btn-block" data-toggle="collapse" data-target="#hamburgerMenu"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="hamburgerMenu">
-              <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <div class="nav flex-column w-100 nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                 <a class="nav-link active" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">About Me</a>
                 <a class="nav-link" id="v-pills-projects-tab" data-toggle="pill" href="#v-pills-projects" role="tab" aria-controls="v-pills-projects" aria-selected="false">Projects</a>
                 <a class="nav-link" id="v-pills-skills-tab" data-toggle="pill" href="#v-pills-skills" role="tab" aria-controls="v-pills-skills" aria-selected="false">Skills</a>
@@ -35,7 +35,7 @@
           </nav>
           <!-- End Navbar-->
           <!-- Begin content-->
-          <div class="col-sm-9 col-md-8 col-lg-8 col-xl-9">
+          <div class="col-sm-12 col-md-8 col-lg-8 col-xl-9">
             <h1 class="animated infinite bounce delay-2s">Kimberly Wilkes</h1>
             <div class="tab-content" id="v-pills-tabContent">
               <div class="tab-pane show active" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
@@ -55,37 +55,52 @@
                   <h2>Projects</h2>
                   <div class="card-group">
                     <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
+                      <img src="#" class="card-img-top" alt="galaxy">
                       <div class="card-body">
-                        <h5 class="card-title">Project 1</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" target="_blank" class="btn btn-primary">Button</a>
+                        <h5 class="card-title">Capstone Project: </h5>
+                        <p class="card-text">A place to collect your thoughts and throw them into space.
+                          <p>Built with HTML5 <i class="fab fa-html5"></i>, CSS3 <i class="fab fa-css3"></i>, JavaScript <i class="fab fa-js-square"></i>, and Bootstrap<i class="fab fa-bootstrap"></i>.
+                          </p>
+                          <a href="https://github.com/kimdolion/void-yeet-client">Github</a>
+                        </p>
+                        <a href="https://kimdolion.github.io/void-yeet-client/" target="_blank" class="btn btn-dark">Let's Yeet</a>
                       </div>
                     </div>
                     <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
+                      <img src="https://media.giphy.com/media/3o7buijTqhjxjbEqjK/giphy.gif" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">Project 2</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" target="_blank" class="btn btn-primary">Button</a>
+                        <h5 class="card-title">Full-stack Project: Yeet into the Void</h5>
+                        <p class="card-text">A place to collect your thoughts and throw them into space.
+                          <p>Built with HTML5 <i class="fab fa-html5"></i>, CSS3 <i class="fab fa-css3"></i>, JavaScript <i class="fab fa-js-square"></i>, Bootstrap <i class="fab fa-bootstrap"></i>, Ruby on Rails, PostgreSQL, and .
+                          </p>
+                          <a href="https://github.com/kimdolion/void-yeet-client">Github</a>
+                        </p>
+                        <a href="https://kimdolion.github.io/void-yeet-client/" target="_blank" class="btn btn-dark">Let's Yeet</a>
                       </div>
                     </div>
                   </div>
                   <div class="card-group">
                     <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
+                      <img src="#" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">Project 3</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" target="_blank" class="btn btn-primary">Button</a>
+                        <h5 class="card-title">Group Project: REPLACE WITH REAL</h5>
+                        <p class="card-text">An in-browser game that lets users play and log color-coded games of tic-tac toe.
+                          <p>Built with HTML5 <i class="fab fa-html5"></i>, CSS3 <i class="fab fa-css3"></i>, JavaScript <i class="fab fa-js-square"></i>, and Bootstrap <i class="fab fa-bootstrap"></i>.
+                          </p>
+                          <a href="#">Github</a>
+                        </p>
+                        <a href="#" target="_blank" class="btn btn-dark">Group Up!</a>
                       </div>
                     </div>
                     <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
+                      <img src="#" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">Project 4</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" target="_blank" class="btn btn-primary">Button</a>
+                        <h5 class="card-title">Front-end Game: Tic-Tac-toe</h5>
+                        <p class="card-text">An in-browser game that lets users play and log color-coded games of tic-tac toe.
+                          <p>Built with HTML5 <i class="fab fa-html5"></i>, CSS3 <i class="fab fa-css3"></i>, JavaScript <i class="fab fa-js-square"></i>, and Bootstrap <i class="fab fa-bootstrap"></i>.</p>
+                          <a href="https://github.com/kimdolion/tic-tac-toe-client">Github</a>
+                        </p>
+                        <a href="https://kimdolion.github.io/tic-tac-toe-client/" target="_blank" class="btn btn-dark">Game on!</a>
                       </div>
                     </div>
                   </div>
@@ -209,7 +224,7 @@
                       <div class="subheading mb-3">BELL - Building Educated Leaders for Life</div>
                       <ul>
                         <li>
-                          Managed Dayforce and Salesforce databases for staff payroll and student information.
+                          Managed staff, students, and Dayforce and Salesforce databases for staff payroll and student information.
                         </li>
                         <li>
                           Coordinated field trips, meetings, day-to-day logistics, and tours for staff, students, and donors.
@@ -227,6 +242,8 @@
                   <h2>Contact Me</h2>
                   <p>
                     You can contact me at kimdolion@ g m a i l .com
+                  </p>
+                  <p>
                     <a href="https://www.linkedin.com/in/kimberly-wilkes" target="_blank">LinkedIn</a>
                   </p>
                 </div>
@@ -240,16 +257,16 @@
                 </div>
               </div>
             </div>
-            <footer>
-              <div class="container">
-                <p>Made by Kimdolion | <a href="https://www.linkedin.com/in/kimberly-wilkes" target="_blank">LinkedIn</a> | <a href="https://github.com/kimdolion" target="_blank">Github</a>
-                </p>
-              </div>
-            </footer>
           </div>
         </div>
       </main>
     </div>
+    <footer>
+      <div class="container">
+        <p>Made by Kimdolion <br> <a href="https://www.linkedin.com/in/kimberly-wilkes" target="_blank">LinkedIn</a> <br> <a href="https://github.com/kimdolion" target="_blank">Github</a>
+        </p>
+      </div>
+    </footer>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
