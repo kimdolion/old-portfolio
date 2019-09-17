@@ -1,8 +1,55 @@
 @import '~bootstrap/scss/bootstrap';
 
-$darkred: maroon;
+$darkgray: #323232;
+$darkred: #960000;
 $black: #000;
 $lightblack: #191919;
 $silver: #efefef;
-$bg-color: $darkred;
-$font-color: $silver;
+$bg-color: $silver;
+$bg-content: $lightblack;
+$bg-navbar: $darkgray;
+$header-color: $darkred;
+
+h2 {
+  color: $header-color;
+}
+
+html {
+  background-color: $bg-color;
+}
+
+footer {
+  bottom: 0;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+}
+
+.nav {
+  height: 100vh;
+  width: 100%;
+}
+
+.navbar {
+  background-color: $bg-navbar;
+}
+
+.nav-link {
+  text-align: center;
+}
+
+.page-container {
+  background-color: $bg-color;
+  font-size: 1.25rem;
+  min-height: 100vh;
+}
+
+@media (max-width: 576px) {
+  .nav {
+    height: 100%;
+    width: 100vw;
+  }
+  .navbar {
+    width: 100vw;
+  }
+}
