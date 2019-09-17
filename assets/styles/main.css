@@ -1,5 +1,5 @@
-@import '~bootstrap/scss/bootstrap';
-@import "~font-awesome/css/font-awesome.css";
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
 
 $darkgray: #323232;
 $darkred: #960000;
@@ -8,6 +8,7 @@ $lightblack: #191919;
 $silver: #efefef;
 $bg-color: $silver;
 $bg-content: $lightblack;
+$bg-navbar: $darkgray;
 $header-color: $darkred;
 
 h2 {
@@ -31,7 +32,7 @@ footer {
 }
 
 .navbar {
-  background-color: $darkgray;
+  background-color: $bg-navbar;
 }
 
 .nav-link {
