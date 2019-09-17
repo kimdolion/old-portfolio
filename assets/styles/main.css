@@ -1,3 +1,6 @@
+@import '~bootstrap/scss/bootstrap';
+@import "~font-awesome/css/font-awesome.css";
+
 $darkgray: #323232;
 $darkred: #960000;
 $black: #000;
