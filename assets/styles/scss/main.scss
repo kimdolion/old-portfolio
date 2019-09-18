@@ -1,4 +1,4 @@
-/* @import '~bootstrap/scss/bootstrap'; */
+@import '~bootstrap/scss/bootstrap';
 
 $darkgray: #323232;
 $darkred: #960000;
@@ -20,7 +20,8 @@ html {
 
 footer {
   bottom: 0;
-  left: 20vw;
+  background: $bg-content;
+  left-margin: 20vw;
   position: absolute;
   width: 100%;
 }

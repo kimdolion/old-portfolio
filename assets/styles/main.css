@@ -1,28 +1,15 @@
-/* @import '~bootstrap/scss/bootstrap'; */
-
-$darkgray: #323232;
-$darkred: #960000;
-$black: #000;
-$lightblack: #191919;
-$silver: #efefef;
-$bg-color: $silver;
-$bg-content: $lightblack;
-$bg-navbar: $darkgray;
-$header-color: $darkred;
 
 h2 {
-  color: $header-color;
+  color: #960000;
 }
 
 html {
-  background-color: $bg-color;
+  background-color: #efefef;
 }
 
 footer {
   bottom: 0;
-  left: 20vw;
   position: absolute;
-  width: 100%;
 }
 
 .nav {
@@ -30,8 +17,9 @@ footer {
 }
 
 .navbar {
-  background-color: $bg-navbar;
+  text-align: center;
   padding: 0;
+  width: auto
 }
 
 .nav-link {
@@ -39,10 +27,10 @@ footer {
 }
 
 .page-container {
-  background-color: $bg-color;
+  background-color: #efefef;
   font-size: 1.25rem;
   min-height: 100vh;
-  padding-bottom: 2.5vh;
+  padding-bottom: 30px;
 }
 
 @media (max-width: 576px) {
