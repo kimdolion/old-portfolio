@@ -7,33 +7,31 @@ html {
   background-color: #efefef;
 }
 
-footer {
-  bottom: 0;
-  position: absolute;
+main {
+  font-size: 1.25rem;
 }
 
-.nav {
-  height: 100vh;
-}
 
 .navbar {
-  text-align: center;
+  color: white;
+  height: 100%;
   padding: 0;
-  width: auto
+  text-align: center;
+  font-size: 3vh;
+}
+
+.fake-footer {
+  font-size: 1rem;
 }
 
 .nav-link {
   text-align: center;
 }
 
-.page-container {
-  background-color: #efefef;
-  font-size: 1.25rem;
-  min-height: 100vh;
-  padding-bottom: 30px;
-}
-
 @media (max-width: 576px) {
+  .fake-footer {
+    margin-top: 10px;
+  }
   .nav {
     height: 100%;
     width: 100vw;
