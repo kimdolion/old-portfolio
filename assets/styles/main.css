@@ -31,13 +31,16 @@ p {
   background: linear-gradient(to bottom right, #005A8B 20%, #000 100%);
 }
 
+.container {
+
+}
+
 .education-item {
   color: #efefef;
   padding: 5px;
 }
 
 .fake-footer {
-  background: black;
   color: white;
   font-size: 1.25rem;
   margin-top: 25vh;
