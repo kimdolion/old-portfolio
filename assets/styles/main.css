@@ -67,6 +67,10 @@ p {
   color: white;
 }
 
+.project-card {
+  max-width: 100vw;
+}
+
 .resume-item {
   background-color: #282828;
   color: #efefef;
