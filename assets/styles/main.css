@@ -7,6 +7,10 @@ main {
   padding: 5px;
 }
 
+p {
+  padding: 5px;
+}
+
 .amherst {
   background: linear-gradient(to bottom right, #4d1979 20%, #000 100%);
   color: #fff;
@@ -44,6 +48,7 @@ main {
 }
 
 .nav-link {
+  cursor: pointer;
   margin-top: 5px;
   text-align: center;
 }
@@ -56,6 +61,12 @@ main {
 .nav-pills .nav-link.active {
   background-color: #960000 !important;
   color: white;
+}
+
+.resume-item {
+  background-color: #282828;
+  color: #efefef;
+  padding: 5px;
 }
 
 @media (max-width: 576px) {
