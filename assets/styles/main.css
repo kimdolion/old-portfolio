@@ -39,15 +39,15 @@ p {
 .fake-footer {
   background: black;
   color: white;
-  font-size: 1rem;
-  margin-top: 20px;
+  font-size: 1.25rem;
+  margin-top: 25vh;
 }
 
 .navbar {
   background-color: #282828;
   font-size: 3vh;
   height: 100%;
-  padding: 5px;
+  padding: 5px 10px;
   text-align: center;
 }
 
@@ -76,6 +76,6 @@ p {
 
 @media (max-width: 576px) {
   .fake-footer {
-    margin-top: 10px;
+    margin-top: 5vh;
   }
 }
