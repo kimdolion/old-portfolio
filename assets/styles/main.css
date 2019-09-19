@@ -73,12 +73,5 @@ p {
   .fake-footer {
     margin-top: 10px;
   }
-  .nav {
-    height: 100%;
-    width: 100vw;
-  }
-  .navbar {
-    height:100%;
-    width: 100%;
-  }
+
 }
