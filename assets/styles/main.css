@@ -46,6 +46,11 @@ p {
   box-shadow: 2px 4px 4px 2px silver;
   color: #efefef;
   padding: 5px;
+  transition: transform .4s;
+}
+
+.education-item:hover {
+  transform: scale(1.025);
 }
 
 .popover {
@@ -89,4 +94,9 @@ p {
   color: #efefef;
   font-size: 1.25rem;
   padding: 10px 20px;
+  transition: transform .4s;
+}
+
+.resume-item:hover{
+  transform: scale(1.025);
 }
