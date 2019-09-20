@@ -1,7 +1,5 @@
-$(function () {
-  $('.horde').popover({trigger: 'hover'})
-})
-
 $(() => {
-
+  $(function () {
+    $('.horde').popover({trigger: 'hover'})
+  })
 })

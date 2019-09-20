@@ -48,8 +48,9 @@ p {
   padding: 5px;
 }
 
-.body-content {
-  background-color: #c8102e;
+.popover {
+  background: tomato;
+  border: 2px solid black;
   color: black;
 }
 
