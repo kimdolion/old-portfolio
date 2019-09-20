@@ -1,5 +1,6 @@
+$(function () {
+  $('.popover-event').popover({trigger: 'hover'})
+})
+
 $(() => {
-  $(function () {
-    $('.popover-event').popover({trigger: 'hover'})
-  })
 })

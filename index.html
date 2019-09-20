@@ -18,7 +18,7 @@
     <div class="col-xs-12 col-md-4 col-lg-3">
       <!-- Begin navbar-->
       <nav class="navbar navbar-expand-sm">
-        <button class="navbar-toggler btn-block" data-toggle="collapse" data-target="#hamburgerMenu"><span class="navbar-toggler-icon"></span></button>
+        <button class="navbar-toggler btn-block" type="button" data-toggle="collapse" data-target="#hamburgerMenu"><span class="navbar-toggler-icon"></span>Toggle ME</button>
         <div class="collapse navbar-collapse" id="hamburgerMenu">
           <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
             <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="Avatar" class="img-thumbnail avatar" placeholder="cat typing">
@@ -29,19 +29,42 @@
             <a class="nav-link" id="v-pills-experience-tab" data-toggle="pill" href="#v-pills-experience" role="tab" aria-controls="v-pills-experience" aria-selected="false">Experience</a>
             <div class="fake-footer rounded">
               <p>Kimberly Wilkes <br> kimowilkes @ g m a i l . com </p>
-              <a href="#" class="btn btn-block btn-lg btn-outline-info disabled" download> Resume <i class="far fa-file-pdf"></i></a>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-lg btn-block btn-outline-info" data-toggle="modal" data-target="#resume">
+                Resume
+              </button>
               <a href="https://www.linkedin.com/in/kimberly-wilkes" target="_blank" class="btn btn-lg btn-block btn-outline-info"> Linked <i class="fab fa-linkedin"></i></a>
-           </div>
+            </div>
           </div>
         </div>
       </nav>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="resume" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Kimberly Wilkes' Resume</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <embed src="assets/img/KimberlyWilkesResume.pdf" width="100%" height="500px">
+            <a href="assets/img/KimberlyWilkesResume.pdf" class="download-btn btn btn-block btn-lg btn-outline-info" download> K.W. Resume <i class="far fa-file-pdf"></i></a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- End Navbar-->
     <!-- Begin content-->
     <div class="col-xs-12 col-md-8 col-lg-9 col-xl-9">
       <main>
         <div>
-          <h1 class="animated infinite bounce delay-2s">Kimberly Wilkes</h1>
+          <h1>Kimberly Wilkes</h1>
           <div class="tab-content" id="v-pills-tabContent">
             <div class="tab-pane show active" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
               <div class="container">
@@ -53,26 +76,29 @@
                   </div>
                   <div class="col-sm-6 col-md-8">
                     <h3>Professionally</h3>
-                      <p class="resume-item rounded">
-                        Welcome! My name is Kim Wilkes and I'm an aspiring software engineer, former educator, and lifetime learner, with a passion for understanding the world around me. I am completing General Assembly's Software Engineering Immersive to jumpstart my career from teaching to technology.
-                      </p>
+                    <p class="resume-item rounded">
+                      Welcome! My name is Kim Wilkes and I'm an aspiring software engineer, former educator, and lifetime learner, with a passion for understanding the world around me.
+                      I am completing General Assembly's Software Engineering Immersive
+                      to jumpstart my career from teaching to technology.
+                    </p>
                     <h3>Outside of Work</h3>
-                      <p class="resume-item rounded">
-                        When I'm not coding, I'm planning my next convention and cosplay, playing video games like <span data-container="body" data-toggle="popover" data-placement="top" class="horde popover-event text-light" data-content="For the Horde!">World of Warcraft</span>, and playing with my cats, Evie and Khali. I am proud of my <span data-container="body" data-toggle="popover" data-placement="top" class="horde popover-event" data-content="African Korean American">multicutural</span> identity and happy to share the food!
-                      </p>
+                    <p class="resume-item rounded">
+                      When I'm not coding, I'm planning my next convention and cosplay, playing video games like <span data-container="body" data-toggle="popover" data-placement="top" class="horde popover-event text-light" data-content="For the Horde!">World of Warcraft</span>, and playing with my cats, Evie and Khali.
+                      I am proud of my <span data-container="body" data-toggle="popover" data-placement="top" class="horde popover-event" data-content="African Korean American">multicutural</span> identity and happy to share the food!
+                    </p>
                   </div>
                   <div class="col-12">
                     <div class="card resume-item">
-                      <img class="card-img-top" src="assets/img/multinationalpatriot.jpg" alt="A banner with country flag fusions">
+                      <img class="card-img-top" src="assets/img/multinationalpatriotflag_honorboth_ourpatriotism_patriot_flag_twitter_banner2.png" alt="A banner with country flag fusions">
                       <div class="card-body">
                         <h4 class="card-title">Multinational Patriot</h4>
-                        <p class="card-text">Multicultural and a fan of the Olympics, my sister, Onjena, was inspired to create a flag that represents our family. Starting with the Korean American flag, my sister has expanded to representing even more flag fusions.</p>
+                        <p class="card-text">Reimagining patriotism, two flags at a time.</p>
                         <div class="row">
                           <div class="col-6">
-                            <a href="https://www.carbon-fibre.me/patriot" class="btn btn-block btn-outline-light" target="_blank">Our Flag Story</a>
+                            <a href="https://www.carbon-fibre.me/patriot" class="btn btn-block btn-lg btn-outline-light" target="_blank">Our Flag Story</a>
                           </div>
                           <div class="col-6">
-                            <a href="https://www.redbubble.com/people/carbonfibreme/portfolio?asc=u" class="btn btn-block btn-outline-danger" target="_blank">RedBubble: Find your flag!</a>
+                            <a href="https://www.redbubble.com/people/carbonfibreme/portfolio?asc=u" class="btn btn-block btn-lg btn-outline-danger" target="_blank">RedBubble: Find your flag!</a>
                           </div>
                         </div>
                       </div>
@@ -171,7 +197,6 @@
                   clothes or ears back wide eyed. Nya nya nyan if it fits i sits take a big fluffing crap 💩 cat not kitten around prance along on top of the garden fence, annoy the neighbor's dog and make it bark but find something else more
                   interesting.
                 </p>
-                <hr>
                 <h4>Programming Languages, Frameworks/Libraries, and Technologies</h4>
                 <div class="resume-item rounded">
                   <ul class="list-inline dev-icons">
@@ -220,7 +245,7 @@
                     <span class="text-light">June 2019 - June 2021</span>
                   </div>
                 </div>
-                <hr>
+                <br>
                 <div class="education-item umb d-flex flex-column flex-md-row justify-content-between rounded">
                   <div class="education-content">
                     <h3 class="mb-0">University of Massachusetts Boston</h3>
@@ -231,7 +256,7 @@
                     <span class="text-light">August 2013 - December 2014</span>
                   </div>
                 </div>
-                <hr>
+                <br>
                 <div class="education-item amherst d-flex flex-column flex-md-row justify-content-between rounded">
                   <div class="education-content">
                     <h3 class="mb-0">Amherst College</h3>
@@ -264,7 +289,7 @@
                     <span class="text-light">July 2019 - October 2019</span>
                   </div>
                 </div>
-                <hr>
+                <br>
                 <div class="resume-item d-flex flex-column flex-md-row justify-content-between rounded">
                   <div class="resume-content">
                     <h3 class="mb-0">Elementary Educator</h3>
@@ -280,7 +305,7 @@
                     <span class="text-light">December 2014 - June 2019</span>
                   </div>
                 </div>
-                <hr>
+                <br>
                 <div class="resume-item d-flex flex-column flex-md-row justify-content-between rounded">
                   <div class="resume-content">
                     <h3 class="mb-0">Program Assistant</h3>
