@@ -20,7 +20,7 @@ nav {
 p {
   padding: 5px;
 }
-
+/* Education college stylings */
 .amherst {
   background: linear-gradient(to bottom right, #4d1979 20%, #000 100%);
   color: #fff;
@@ -36,11 +36,21 @@ p {
   background-color: #005A8B;
   background: linear-gradient(to bottom right, #005A8B 20%, #000 100%);
 }
+/* End of college stylings */
+
+.avatar {
+  border-radius: 100%;
+}
 
 .education-item {
   box-shadow: 2px 4px 4px 2px silver;
   color: #efefef;
   padding: 5px;
+}
+
+.body-content {
+  background-color: #c8102e;
+  color: black;
 }
 
 .navbar {
