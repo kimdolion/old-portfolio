@@ -49,9 +49,9 @@ p {
 }
 
 .popover {
-  background: tomato;
-  border: 2px solid black;
-  color: black;
+  background: #c90000;
+  box-shadow: .5px 1px 1px .5px black;
+  color: white;
 }
 
 .navbar {
