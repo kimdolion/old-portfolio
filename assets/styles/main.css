@@ -112,4 +112,7 @@ p {
   .download-btn {
     display: block;
   }
+  .special-pad {
+    padding: 0;
+  }
 }
