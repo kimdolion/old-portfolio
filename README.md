@@ -1,30 +1,31 @@
 # Kimberly Wilkes
 
 ## About Me
-Welcome! My name is Kim Wilkes (she/her) and I'm an aspiring software engineer, former educator, and lifetime learner, with a passion for understanding the world around me and uplifting all voices.
+Welcome! My name is Kim Wilkes and I'm a fullstack software engineer, former educator, and lifetime learner, with a passion for understanding the world around me and uplifting all voices.
 I am a full stack software engineer with a passion for user-centered and responsive web design. I pride myself on my flexibility and willingness to try something new, which are key to being a web developer.
 
 ## Skills
 <details>
 <summary>Languages</summary>
 
-- C++
-- JavaScript (ES6)
-- Ruby
+- JavaScript (ES6)/ Typescript
 </details>
 
 <details>
 <summary>Frameworks</summary>
 
 - Bootstrap
+- Chakra-ui
+- TailwindCSS
+- NextJS
 </details>
 
 <details>
 <summary>Technologies</summary>
 
-- Atom
 - Git
 - Github
+- Vercel
 </details>
 
 
